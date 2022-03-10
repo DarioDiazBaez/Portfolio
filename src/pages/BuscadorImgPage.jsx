@@ -9,7 +9,7 @@ export default function BuscadorImg() {
           <p className="text-light ">
             Una página web para buscar imágenes.
           </p>
-          <img src="img/buscadorimg.png" className="img-fluid"/>
+          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/buscadorimg.png?raw=true" className="img-fluid"/>
           <br/><br/>
           <p className="text-light">
             Este proyecto esta basado en la API de

@@ -9,7 +9,7 @@ export default function MemeGenerator() {
           <p className="text-light ">
            Una aplicación web para crear memes simples
           </p>
-          <img src="img/meme.jpg" className="img-fluid"/>
+          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/meme.jpg?raw=true" className="img-fluid"/>
           <br/><br/>
           <p className="text-light ">
             En este proyecto se pueden crear memes con un texto superior e inferior,

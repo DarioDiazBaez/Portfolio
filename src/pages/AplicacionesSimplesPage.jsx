@@ -14,7 +14,7 @@ export default function AplicacionesSimples() {
           <p className="text-light ">
             Una simple calculadora.
           </p>
-          <img src="img/calculadora.jpg" className="img-fluid"/>
+          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/calculadora.jpg?raw=true" className="img-fluid"/>
           <br/><br/>
           <p className="text-light ">
            Esta es una calculadora echa con HTML, CSS y JavaScript nativo
@@ -32,7 +32,7 @@ export default function AplicacionesSimples() {
           <p className="text-light ">
             El clásico juego de tres en línea
           </p>
-          <img src="img/tateti.png" className="img-fluid"/>
+          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/tateti.png?raw=true" className="img-fluid"/>
           <br/><br/>
           <h2 className="text-light">funcionamiento</h2>
           <p className="text-light ">
@@ -48,7 +48,7 @@ export default function AplicacionesSimples() {
           <p className="text-light ">
             Un juego para usar nuestra agilidad mental
           </p>
-          <img src="img/memograma.png" className="img-fluid"/>
+          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/memograma.png?raw=true" className="img-fluid"/>
           <br/><br/>
           <h2 className="text-light">funcionamiento</h2>
           <p className="text-light ">

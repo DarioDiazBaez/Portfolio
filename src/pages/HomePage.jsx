@@ -18,23 +18,23 @@ export default function HomePage() {
             </div>
             <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
               <div className="accordion-body">
-                <img src="svg/html.svg" width="35px" className="mx-2" title="HTML" />
-                <img src="svg/css.svg" width="35px" className="mx-2" title="CSS" />
-                <img src="svg/js.svg" width="35px" className="mx-2" title="JAVASCRIPT" />
+                <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/html.svg" width="35px" className="mx-2" title="HTML" />
+                <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/css.svg" width="35px" className="mx-2" title="CSS" />
+                <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/js.svg" width="35px" className="mx-2" title="JAVASCRIPT" />
                 <a href="https://es.reactjs.org/" target="_blank">
-                  <img src="svg/react.svg" width="40px" className="mx-2" title="REACT" />
+                  <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/react.svg" width="40px" className="mx-2" title="REACT" />
                 </a>
                 <a href="https://getbootstrap.com/" target="_blank">
-                  <img src="svg/bootstrap.svg" width="45px" className="mx-2" title="BOOTSTRAP" />
+                  <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/bootstrap.svg" width="45px" className="mx-2" title="BOOTSTRAP" />
                 </a>
                 <a href="https://sass-lang.com/" target="_blank">
-                  <img src="svg/sass.svg" width="45px" className="mx-2" title="SASS" />
+                  <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/sass.svg" width="45px" className="mx-2" title="SASS" />
                 </a>
                 <a href="https://lesscss.org/" target="_blank">
-                  <img src="svg/less.svg" width="65px" className="mx-2" title="LESS" />
+                  <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/less.svg" width="65px" className="mx-2" title="LESS" />
                 </a>
                 <a href="https://git-scm.com/" target="_blank">
-                  <img src="svg/git.svg" width="40px" className="mx-2" title="GIT" />
+                  <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/git.svg" width="40px" className="mx-2" title="GIT" />
                 </a>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function HomePage() {
               <h1 className="text-light text-center d-block ">Contacta conmigo</h1>
               <div className="d-flex justify-content-center align-items-center">
                 <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a" target="_blank" className="d-inline-block">
-                  <img src="svg/linkedin.svg" width="45px"/>
+                  <img src="https://raw.githubusercontent.com/DarioDiazBaez/img/3e88a98709c437fccff83db04d58afec8fe84e6f/svg/linkedin.svg" width="45px"/>
                 </a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="85" height="55" fill="white" className="bi bi-envelope-paper-heart d-inline-block" viewBox="0 0 16 16">
                   <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>

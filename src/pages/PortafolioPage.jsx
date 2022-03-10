@@ -11,7 +11,7 @@ export default function Portafolio() {
           </p>
           <h2 className="text-light">El antiguo</h2>
           <br/>
-          <img src="img/portafolio1.png" className="img-fluid"/>
+          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/portafolio1.png?raw=true" className="img-fluid"/>
           <br/><br/>
           <p className="text-light ">
             Este era mi antiguo portafolio el cual no termine por que
@@ -23,7 +23,7 @@ export default function Portafolio() {
           </p>
           <h2 className="text-light">El actual</h2>
           <br/>
-          <img src="img/portafolio2.png" className="img-fluid"/>
+          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/portafolio2.png?raw=true" className="img-fluid"/>
           <br/><br/>
           <p className="text-light ">
             El diseño de este portafolio está basado en el portafolio de
