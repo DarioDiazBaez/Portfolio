@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes, } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import BuscadorImgPage from "./pages/BuscadorImgPage";
@@ -9,7 +9,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 export default function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/buscadorimg" element={<BuscadorImgPage />} />  
@@ -18,6 +18,6 @@ export default function App() {
         <Route path="/portafolio" element={<PortafolioPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
