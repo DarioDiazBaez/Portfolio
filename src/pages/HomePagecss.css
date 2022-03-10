@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Smooch+Sans:wght@541&display=swap');
+
+.letras{
+  font-family: 'Hind', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+}
+
+.card{
+  width: 18rem;
+  background-color: transparent;
+}
+
+.card:hover{
+  box-shadow: 0px 2px 5px #E0E8F1;
+  transform: translateY(-2%);
+}
