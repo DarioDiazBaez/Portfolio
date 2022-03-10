@@ -16,7 +16,7 @@ export default function App() {
         <Route path="/memegenerator" element={<MemeGeneratorPage />} />
         <Route path="/calculadora" element={<AplicacionesSimplesPage />} />
         <Route path="/portafolio" element={<PortafolioPage />} />
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path="*" element={<HomePage />} />
       </Routes>
     </HashRouter>
   );
