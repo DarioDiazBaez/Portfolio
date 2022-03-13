@@ -5,6 +5,7 @@ import html from "../utilidades/svg/html.svg"
 import css from "../utilidades/svg/css.svg"
 import js from "../utilidades/svg/js.svg"
 import react from "../utilidades/svg/react.svg"
+import redux from "../utilidades/svg/redux.svg"
 import bootstrap from "../utilidades/svg/bootstrap.svg"
 import sass from "../utilidades/svg/sass.svg"
 import less from "../utilidades/svg/less.svg"
@@ -26,23 +27,26 @@ export default function HomePage() {
             </div>
             <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
               <div className="accordion-body">
-                <img src={html} width="35px" className="mx-2" title="HTML" />
-                <img src={css} width="35px" className="mx-2" title="CSS" />
-                <img src={js} width="35px" className="mx-2" title="JAVASCRIPT" />
+                <img src={html} width="35px" className="mx-2 my-2" title="HTML" />
+                <img src={css} width="35px" className="mx-2 my-2" title="CSS" />
+                <img src={js} width="35px" className="mx-2 my-2" title="JAVASCRIPT" />
                 <a href="https://es.reactjs.org/" target="_blank">
-                  <img src={react} width="40px" className="mx-2" title="REACT" />
+                  <img src={react} width="40px" className="mx-2 my-2" title="REACT" />
+                </a>
+                <a href="https://redux.js.org/" target="_blank">
+                  <img src={redux} width="40px" className="mx-2 my-2" title="REDUX" />
                 </a>
                 <a href="https://getbootstrap.com/" target="_blank">
-                  <img src={bootstrap} width="45px" className="mx-2" title="BOOTSTRAP" />
+                  <img src={bootstrap} width="45px" className="mx-2 my-2" title="BOOTSTRAP" />
                 </a>
                 <a href="https://sass-lang.com/" target="_blank">
-                  <img src={sass} width="45px" className="mx-2" title="SASS" />
+                  <img src={sass} width="45px" className="mx-2 my-2" title="SASS" />
                 </a>
                 <a href="https://lesscss.org/" target="_blank">
-                  <img src={less} width="65px" className="mx-2" title="LESS" />
+                  <img src={less} width="65px" className="mx-2 my-2" title="LESS" />
                 </a>
                 <a href="https://git-scm.com/" target="_blank">
-                  <img src={git} width="40px" className="mx-2" title="GIT" />
+                  <img src={git} width="40px" className="mx-2 my-2" title="GIT" />
                 </a>
               </div>
             </div>
@@ -53,19 +57,13 @@ export default function HomePage() {
 {/*Projects---------------------------------*/}
           <div className="d-flex flex-wrap">
 
-            <NavLink style={{textDecoration: "none"}} to="buscadorimg" className="card mx-2 my-2 py-1 px-1">
+            <NavLink style={{textDecoration: "none"}} to="appreact" className="card mx-2 my-2 py-1 px-1">
               <div className="card-body">
-                <p className="card-text text-light ">Buscador de Imagenes</p>
+                <p className="card-text text-light ">Aplicaciones con React</p>
               </div>
             </NavLink>
 
-            <NavLink style={{textDecoration: "none"}} to="memegenerator" className="card mx-2 my-2 py-1 px-1">
-              <div className="card-body">
-                <p className="card-text text-light ">Generador de memes</p>
-              </div>
-            </NavLink>
-
-            <NavLink style={{textDecoration: "none"}} to="calculadora" className="card mx-2 my-2 py-1 px-1">
+            <NavLink style={{textDecoration: "none"}} to="appsimple" className="card mx-2 my-2 py-1 px-1">
               <div className="card-body">
                 <p className="card-text text-light ">Aplicaciones simples</p>
               </div>

@@ -13,7 +13,7 @@ export default function AplicacionesSimples() {
           <h1 className="text-light">Aplicaciones simples</h1>
           <p className="text-light ">
             Aplicaciones echas solo con HTML, CSS, JS nativo 
-          </p>
+          </p><br/>
 
           <h2 className="text-light">Calculadora</h2>
           <p className="text-light ">
