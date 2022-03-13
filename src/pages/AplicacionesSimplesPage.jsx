@@ -1,5 +1,10 @@
 import { NavLink } from "react-router-dom";
 import React from 'react'
+import cal from "../utilidades/img/calculadora.jpg"
+import tateti from "../utilidades/img/tateti.png"
+import memograma from "../utilidades/img/memograma.png"
+
+
 export default function AplicacionesSimples() {
   return (
     <div className="container pt-5">
@@ -14,7 +19,7 @@ export default function AplicacionesSimples() {
           <p className="text-light ">
             Una simple calculadora.
           </p>
-          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/calculadora.jpg?raw=true" className="img-fluid"/>
+          <img src={cal} className="img-fluid"/>
           <br/><br/>
           <p className="text-light ">
            Esta es una calculadora echa con HTML, CSS y JavaScript nativo
@@ -32,7 +37,7 @@ export default function AplicacionesSimples() {
           <p className="text-light ">
             El clásico juego de tres en línea
           </p>
-          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/tateti.png?raw=true" className="img-fluid"/>
+          <img src={tateti} className="img-fluid"/>
           <br/><br/>
           <h2 className="text-light">funcionamiento</h2>
           <p className="text-light ">
@@ -48,7 +53,7 @@ export default function AplicacionesSimples() {
           <p className="text-light ">
             Un juego para usar nuestra agilidad mental
           </p>
-          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/memograma.png?raw=true" className="img-fluid"/>
+          <img src={memograma} className="img-fluid"/>
           <br/><br/>
           <h2 className="text-light">funcionamiento</h2>
           <p className="text-light ">
@@ -64,7 +69,7 @@ export default function AplicacionesSimples() {
                 <li style={{listStyle:"none"}}>
                   <p className="text-light">Calculadora :
                     <a href="https://dariodiazbaez.github.io/calculadora-js.github.io/" className="text-light mx-1" target="_blank">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" className="bi bi-link-45deg" viewBox="0 0 16 16">
                         <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
                         <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
                       </svg>
@@ -79,7 +84,7 @@ export default function AplicacionesSimples() {
                 <li style={{listStyle:"none"}}>
                   <p className="text-light">TATETI :
                     <a href="https://dariodiazbaez.github.io/tatetigithub.io/" className="text-light mx-1" target="_blank">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" className="bi bi-link-45deg" viewBox="0 0 16 16">
                         <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
                         <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
                       </svg>
@@ -94,7 +99,7 @@ export default function AplicacionesSimples() {
                 <li style={{listStyle:"none"}}>
                   <p className="text-light">Memograma :
                     <a href="https://dariodiazbaez.github.io/memogramagithub.io/" className="text-light mx-1" target="_blank">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" className="bi bi-link-45deg" viewBox="0 0 16 16">
                         <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
                         <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
                       </svg>
@@ -112,7 +117,7 @@ export default function AplicacionesSimples() {
         </div> 
       </div>
       <div className="row ">
-        <NavLink style={{textDecoration: "none"}} to="/" className="d-flex justify-content-center">
+        <NavLink style={{textDecoration: "none"}} to="/" className="d-flex justify-content-center mb-5">
           <h2 className="text-light ">Volver</h2>
         </NavLink>
       </div>

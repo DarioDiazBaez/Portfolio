@@ -1,5 +1,9 @@
 import { NavLink } from "react-router-dom";
 import React from 'react'
+import portafolio1 from "../utilidades/img/portafolio1.png"
+import portafolio2 from "../utilidades/img/portafolio2.png"
+
+
 export default function Portafolio() {
   return (
     <div className="container pt-5">
@@ -11,7 +15,7 @@ export default function Portafolio() {
           </p>
           <h2 className="text-light">El antiguo</h2>
           <br/>
-          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/portafolio1.png?raw=true" className="img-fluid"/>
+          <img src={portafolio1} className="img-fluid"/>
           <br/><br/>
           <p className="text-light ">
             Este era mi antiguo portafolio el cual no termine por que
@@ -23,7 +27,7 @@ export default function Portafolio() {
           </p>
           <h2 className="text-light">El actual</h2>
           <br/>
-          <img src="https://github.com/DarioDiazBaez/img/blob/main/img/portafolio2.png?raw=true" className="img-fluid"/>
+          <img src={portafolio2} className="img-fluid"/>
           <br/><br/>
           <p className="text-light ">
             El diseño de este portafolio está basado en el portafolio de
@@ -44,7 +48,7 @@ export default function Portafolio() {
           <div className="d-flex justify-content-center sticky-top">
             <div className="my-5 py-5 align-middle">
               <a href="https://dariodiazbaez.github.io/portafolio_viejo/#extra" className="text-light mx-3 " target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" className="bi bi-link-45deg" viewBox="0 0 16 16">
                   <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
                   <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
                 </svg>
@@ -59,7 +63,7 @@ export default function Portafolio() {
         </div> 
       </div>
       <div className="row ">
-        <NavLink style={{textDecoration: "none"}} to="/" className="d-flex justify-content-center">
+        <NavLink style={{textDecoration: "none"}} to="/" className="d-flex justify-content-center mb-5">
           <h2 className="text-light ">Volver</h2>
         </NavLink>
       </div>
