@@ -17,7 +17,12 @@ export default function HomePage() {
     <div className="container pt-5" >
       <div className="row">
         <div className="col-md-6">
-          <h1 className="text-light letras">DARIO DIAZ BAEZ</h1>
+          <div className="">
+            <h1 className="text-light letras">DARIO DIAZ BAEZ</h1>
+            <a href="https://drive.google.com/file/d/1jZeIzSslxp_vVD-MFeX2G-lxaNjaEcEH/view?usp=sharing" target="_blank" style={{textDecoration:"none"}} className="text-light">
+              <p>Curriculum Vitae</p>
+            </a>
+          </div>
           <h2 className="py-1 px-1 bg-light text-center letras">FRONT-END Developer</h2>
           <p className="text-light text-break ">Un programador front end con ganas de aprender creciendo contigo.</p>
 {/*Accordion--------------------------------*/}
@@ -88,17 +93,20 @@ export default function HomePage() {
             <div className="col-12 col-md-5">
               <h1 className="text-light text-center d-block ">Contacta conmigo</h1>
               <div className="d-flex justify-content-center align-items-center">
-                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a" target="_blank" className="d-inline-block">
+                <a href="https://www.linkedin.com/in/dario-diaz-baez-a4a348229/" target="_blank" className="d-inline-block">
                   <img src={linkedin} width="45px"/>
                 </a>
-                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="55" fill="white" className="bi bi-envelope-paper-heart d-inline-block" viewBox="0 0 16 16">
-                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                </svg>
+                <a href="https://drive.google.com/file/d/1jZeIzSslxp_vVD-MFeX2G-lxaNjaEcEH/view?usp=sharing" target="_blank" className="d-inline-block">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-file-person" viewBox="0 0 16 16">
+                    <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                    <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+                </a>
               </div>
             </div>
             <div className="col-12 col-md-7">
               <form action="https://formspree.io/f/moqrddkk" method="POST">
-                <input className="rounded border-0 form-control shadow-none my-3" required="" type="email" name="email" placeholder="Tu Email:" />
+                <input className="rounded border-0 form-control shadow-none my-3" required="" type="email" name="email" placeholder="Tu Email: Para que pueda responderte" />
                 <textarea className="rounded border-0 form-control shadow-none my-3" required="" name="message" placeholder="Tu Mensaje:"></textarea>
                 <button className="btn btn-secondary form-control my-3" type="submit">Enviar</button>
               </form>
