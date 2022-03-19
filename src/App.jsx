@@ -1,5 +1,5 @@
 import { BrowserRouter, HashRouter, Route, Routes, } from "react-router-dom";
-
+import "./App.css"
 import HomePage from "./pages/HomePage";
 import AplicacionesConReactPage from "./pages/AplicacionesConReactPage";
 import AplicacionesSimplesPage from "./pages/AplicacionesSimplesPage";
@@ -8,6 +8,8 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 export default function App() {
   return (
+  <div>
+    <div className="fondo"/>
     <HashRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -17,5 +19,6 @@ export default function App() {
         <Route path="*" element={<HomePage />} />
       </Routes>
     </HashRouter>
+  </div>
   );
 }
