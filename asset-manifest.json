@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1980c440.css",
-    "main.js": "/Portfolio/static/js/main.b78d9ced.js",
+    "main.css": "/Portfolio/static/css/main.2d947345.css",
+    "main.js": "/Portfolio/static/js/main.f96e5bfd.js",
     "static/js/787.46b69eb2.chunk.js": "/Portfolio/static/js/787.46b69eb2.chunk.js",
     "static/media/portafolio1.png": "/Portfolio/static/media/portafolio1.3afb68eaed24773d5c41.png",
     "static/media/buscadorimg.png": "/Portfolio/static/media/buscadorimg.9b7f15f8eb1f25288d80.png",
-    "static/media/fondo.jpg": "/Portfolio/static/media/fondo.250bead171d423d1b3d8.jpg",
     "static/media/calculadora.jpg": "/Portfolio/static/media/calculadora.9798faa671976aa0e263.jpg",
     "static/media/meme.jpg": "/Portfolio/static/media/meme.908c4438c708307f0e15.jpg",
     "static/media/memograma.png": "/Portfolio/static/media/memograma.ead294d12c812629894d.png",
@@ -23,12 +22,12 @@
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.32e20978a96ff60c1fdc5a8389e532ba.svg",
     "static/media/css.svg": "/Portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/Portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.1980c440.css.map": "/Portfolio/static/css/main.1980c440.css.map",
-    "main.b78d9ced.js.map": "/Portfolio/static/js/main.b78d9ced.js.map",
+    "main.2d947345.css.map": "/Portfolio/static/css/main.2d947345.css.map",
+    "main.f96e5bfd.js.map": "/Portfolio/static/js/main.f96e5bfd.js.map",
     "787.46b69eb2.chunk.js.map": "/Portfolio/static/js/787.46b69eb2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1980c440.css",
-    "static/js/main.b78d9ced.js"
+    "static/css/main.2d947345.css",
+    "static/js/main.f96e5bfd.js"
   ]
 }
