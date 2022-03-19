@@ -26,8 +26,8 @@ export default function HomePage() {
             <b> Curriculum Vitae </b>
           </a></p>
 {/*Accordion--------------------------------*/}
-          <div className="bg-secondary">
-            <div className="accordion-button collapsed bg-secondary" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+          <div className="bg">
+            <div className="accordion-button collapsed bg2" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
               <h3 className=" my-auto">Skillset</h3>
             </div>
             <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -47,9 +47,9 @@ export default function HomePage() {
                 <a href="https://sass-lang.com/" target="_blank">
                   <img src={sass} width="45px" className="mx-2 my-2" title="SASS" />
                 </a>
-                <a href="https://lesscss.org/" target="_blank">
+                {/*<a href="https://lesscss.org/" target="_blank">
                   <img src={less} width="65px" className="mx-2 my-2" title="LESS" />
-                </a>
+                </a>*/}
                 <a href="https://git-scm.com/" target="_blank">
                   <img src={git} width="40px" className="mx-2 my-2" title="GIT" />
                 </a>
@@ -64,19 +64,19 @@ export default function HomePage() {
 
             <NavLink style={{textDecoration: "none"}} to="appreact" className="card mx-2 my-2 py-1 px-1">
               <div className="card-body">
-                <p className="card-text text-light ">Aplicaciones con React</p>
+                <p className="card-text  ">Aplicaciones con React</p>
               </div>
             </NavLink>
 
             <NavLink style={{textDecoration: "none"}} to="appsimple" className="card mx-2 my-2 py-1 px-1">
               <div className="card-body">
-                <p className="card-text text-light ">Aplicaciones simples</p>
+                <p className="card-text  ">Aplicaciones simples</p>
               </div>
             </NavLink>
 
             <NavLink style={{textDecoration: "none"}} to="portafolio" className="card mx-2 my-2 py-1 px-1">
               <div className="card-body">
-                <p className="card-text text-light ">Portafolio</p>
+                <p className="card-text  ">Portafolio</p>
               </div>
             </NavLink>
 

@@ -1,5 +1,5 @@
 import { BrowserRouter, HashRouter, Route, Routes, } from "react-router-dom";
-import "./App.css"
+// import "./App.css"
 import HomePage from "./pages/HomePage";
 import AplicacionesConReactPage from "./pages/AplicacionesConReactPage";
 import AplicacionesSimplesPage from "./pages/AplicacionesSimplesPage";
