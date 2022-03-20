@@ -20,9 +20,9 @@ export default function HomePage() {
           <div className="">
             <h1 className="text-light letras">DARIO DIAZ BAEZ</h1>
           </div>
-          <h2 className="py-1 px-1 bg-light text-center letras">FRONT-END Developer</h2>
+          <h2 className="py-1 px-1 text-center letras bg3">FRONT-END Developer</h2>
           <p className="text-light text-break ">Un programador front end con ganas de aprender creciendo contigo.
-          <a href="https://drive.google.com/file/d/1jZeIzSslxp_vVD-MFeX2G-lxaNjaEcEH/view?usp=sharing" target="_blank" style={{textDecoration:"none"}} className="text-light">
+          <a href="https://drive.google.com/file/d/18CDX6Ftl8qo5hm_2PBnYFaBPpEYrxQIk/view" target="_blank" style={{textDecoration:"none"}} className="text-light">
             <b> Curriculum Vitae </b>
           </a></p>
 {/*Accordion--------------------------------*/}
@@ -30,7 +30,7 @@ export default function HomePage() {
             <div className="accordion-button collapsed bg2" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
               <h3 className=" my-auto">Skillset</h3>
             </div>
-            <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapseOne" className="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
               <div className="accordion-body">
                 <img src={html} width="35px" className="mx-2 my-2" title="HTML" />
                 <img src={css} width="35px" className="mx-2 my-2" title="CSS" />
@@ -61,6 +61,12 @@ export default function HomePage() {
           <h2 className="text-light text-break ">Proyectos</h2>
 {/*Projects---------------------------------*/}
           <div className="d-flex flex-wrap">
+
+           {/* <NavLink style={{textDecoration: "none"}} to="landing" className="card mx-2 my-2 py-1 px-1">
+              <div className="card-body">
+                <p className="card-text  ">Landing Pages</p>
+              </div>
+            </NavLink>*/}
 
             <NavLink style={{textDecoration: "none"}} to="appreact" className="card mx-2 my-2 py-1 px-1">
               <div className="card-body">
