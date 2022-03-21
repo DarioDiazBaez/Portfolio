@@ -42,15 +42,19 @@ export default function BuscadorImg() {
           <br/><br/>
           <p className="text-light">
             Este proyecto esta basado en la API de
-            <a href="https://pixabay.com/api/docs/" target="_blank"><b> pixabay </b></a>
-            el funcionamiento es muy facil solo se tiene que buscar alguna cosa y se mostraran
-            imágenes relacionadas con la búsqueda. Es posible ver más resultados
-            a los mostrados en pantalla con los botones "anterior" y "siguiente".
+            <a href="https://developers.giphy.com/docs/api#quick-start-guide" target="_blank"><b> GIPHY </b></a>
+            la cual proporciona los GIF si das un click sobre uno se puede descargar desde la página oficial de la API
           </p>
           <h2 className="text-light">funcionamiento</h2>
-          <p className="text-light">Está hecho en React utilizando el siclo de vida 
-            clásico para la estructuración del proyecto, y para tener una búsqueda personalizada
-            Se le cambian los parámetros en el link de la API.
+          <p className="text-light">
+          Para este proyecto tome un código de github creado por otra persona
+          como base, y le arregle un par de bugs para que funcione mejor.
+          La razón de haber usado un código de base es porque quería usar animaciones de
+          <a href="https://animate.style/" target="_blank"><b> Animate.css </b></a>
+          para este proyecto, porque el funcionamiento de 
+          este proyecto es igual al proyecto anterior, para buscar imágenes 
+          se usa una llamada a una API con fetch, y se muestran los resultados en pantalla 
+          mediante propiedades en los componentes de React
           </p>
 
           <h1 className="text-light" >Lista de tareas</h1>

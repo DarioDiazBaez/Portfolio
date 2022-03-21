@@ -70,8 +70,12 @@ export default function AplicacionesSimples() {
           <br/><br/>
           <h2 className="text-light">funcionamiento</h2>
           <p className="text-light ">
-            De un array se genera otro desordenado aleatoriamente por cada nueva partida,
-            luego con un contador de aciertos se puede saber si el juego termino.
+            Se usa la API de
+            <a href="https://openweathermap.org/api " target="_blank"><b> openweathermap </b></a>
+            para recibir los datos del clima
+            mediante una petición fetch. Cuando se escribe en el buscador, el nombre de la ciudad que 
+            se quiere saber el clima actual, se modifica dinámicamente en la URL de la petición fetch 
+            para recibir el resultado deseado
           </p>
         </div>
         <div className="col-md-5">

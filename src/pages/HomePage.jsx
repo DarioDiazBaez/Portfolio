@@ -18,17 +18,17 @@ export default function HomePage() {
       <div className="row">
         <div className="col-md-6">
           <div className="">
-            <h1 className="text-light letras">DARIO DIAZ BAEZ</h1>
+            <h1 className="text-light letras ">DARIO DIAZ BAEZ</h1>
           </div>
-          <h2 className="py-1 px-1 text-center letras bg3">FRONT-END Developer</h2>
-          <p className="text-light text-break ">Un programador front end con ganas de aprender creciendo contigo.
+          <h2 className=" text-center bg3 letras ">FRONT-END Developer</h2>
+          <p className="text-light text-break ">Un programador front end con ganas de aprender creciendo contigo, puedes descargar aqui mi.
           <a href="https://drive.google.com/file/d/18CDX6Ftl8qo5hm_2PBnYFaBPpEYrxQIk/view" target="_blank" style={{textDecoration:"none"}} className="text-light">
             <b> Curriculum Vitae </b>
           </a></p>
 {/*Accordion--------------------------------*/}
           <div className="bg">
-            <div className="accordion-button collapsed bg2" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
-              <h3 className=" my-auto">Skillset</h3>
+            <div className="collapsed bg2 pulsar " data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+              <h3 className="my-auto ">Skillset</h3>
             </div>
             <div id="flush-collapseOne" className="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
               <div className="accordion-body">
@@ -68,19 +68,19 @@ export default function HomePage() {
               </div>
             </NavLink>*/}
 
-            <NavLink style={{textDecoration: "none"}} to="appreact" className="card mx-2 my-2 py-1 px-1">
+            <NavLink style={{textDecoration: "none"}} to="appreact" className="card ">
               <div className="card-body">
                 <p className="card-text  ">Aplicaciones con React</p>
               </div>
             </NavLink>
 
-            <NavLink style={{textDecoration: "none"}} to="appsimple" className="card mx-2 my-2 py-1 px-1">
+            <NavLink style={{textDecoration: "none"}} to="appsimple" className="card ">
               <div className="card-body">
                 <p className="card-text  ">Aplicaciones simples</p>
               </div>
             </NavLink>
 
-            <NavLink style={{textDecoration: "none"}} to="portafolio" className="card mx-2 my-2 py-1 px-1">
+            <NavLink style={{textDecoration: "none"}} to="portafolio" className="card ">
               <div className="card-body">
                 <p className="card-text  ">Portafolio</p>
               </div>
